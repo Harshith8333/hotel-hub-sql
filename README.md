@@ -105,9 +105,6 @@ GROUP BY DATE_FORMAT(check_in_date, '%Y-%m')
 ORDER BY month DESC;
 ```
 
-## 📊 Entity Relationship Diagram (ERD)
-
-![Hotel Management ERD](ERD.jpg)
 
 ## 🎯 Key Learning Objectives
 
