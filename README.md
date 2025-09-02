@@ -47,24 +47,24 @@ hotel-hub-sql/
 
 ### ⚙️ Installation
 
-1. Clone this repository 📥
+1. **Clone this repository** 📥
    ```bash
    git clone https://github.com/Harshith8333/hotel-hub-sql.git
    cd hotel-hub-sql
    ```
 
-2. Create a new database 🗄️
+2. **Create a new database** 🗄️
    ```sql
    CREATE DATABASE hotel_hub;
    USE hotel_hub;
    ```
 
-3. Run the schema creation script 🛠️
+3. **Run the schema creation script** 🛠️
    ```bash
    mysql -u your_username -p hotel_hub < CreateTable.sql
    ```
 
-4. Load sample data 📊
+4. **Load sample data** 📊
    ```bash
    mysql -u your_username -p hotel_hub < InsertData.sql
    ```
@@ -153,18 +153,4 @@ Contributions are welcome! 🎉 Please feel free to submit a Pull Request. For m
 
 ## 👨‍💻 Author
 
-**Harshith Kumar Varma Penmetsa** ✨
-
-- 🔗 GitHub: [@Harshith8333](https://github.com/Harshith8333)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Contact
-
-For questions or suggestions, please reach out through GitHub issues or contact the author directly. 💬
-
-This project demonstrates practical application of SQL in a real-world hotel management scenario, showcasing database design, implementation, and query optimization techniques. 🎓
-
-⭐ Don't forget to star this repository if you found it helpful! ⭐
+**Harshith Kumar Varma Penmetsa** 
