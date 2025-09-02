@@ -30,21 +30,12 @@ The database includes the following main tables:
 
 ```
 hotel-hub-sql/
-├── schema/
-│   ├── create_tables.sql
-│   ├── constraints.sql
-│   └── indexes.sql
-├── data/
-│   ├── sample_data.sql
-│   └── test_data.sql
-├── queries/
-│   ├── basic_queries.sql
-│   ├── advanced_queries.sql
-│   └── reports.sql
-├── documentation/
-│   ├── ERD.png
-│   └── database_design.md
-└── README.md
+├── 🗄️ CreateTable.sql
+├── 📊 InsertData.sql
+├── 🔍 Queries.sql
+├── 🎨 ERD.jpg
+├── 📝 Hotel-Hub.docx
+└── 📖 README.md
 ```
 
 ## 🚀 Getting Started
@@ -56,28 +47,26 @@ hotel-hub-sql/
 
 ### ⚙️ Installation
 
-1. **Clone this repository** 📥
+1. Clone this repository 📥
    ```bash
    git clone https://github.com/Harshith8333/hotel-hub-sql.git
    cd hotel-hub-sql
    ```
 
-2. **Create a new database** 🗄️
+2. Create a new database 🗄️
    ```sql
    CREATE DATABASE hotel_hub;
    USE hotel_hub;
    ```
 
-3. **Run the schema creation scripts** 🛠️
+3. Run the schema creation script 🛠️
    ```bash
-   mysql -u your_username -p hotel_hub < schema/create_tables.sql
-   mysql -u your_username -p hotel_hub < schema/constraints.sql
-   mysql -u your_username -p hotel_hub < schema/indexes.sql
+   mysql -u your_username -p hotel_hub < CreateTable.sql
    ```
 
-4. **Load sample data** 📊
+4. Load sample data 📊
    ```bash
-   mysql -u your_username -p hotel_hub < data/sample_data.sql
+   mysql -u your_username -p hotel_hub < InsertData.sql
    ```
 
 ## 💡 Usage Examples
@@ -118,7 +107,7 @@ ORDER BY month DESC;
 
 ## 📊 Entity Relationship Diagram (ERD)
 
-![Hotel Management ERD](documentation/ERD.png)
+![Hotel Management ERD](ERD.jpg)
 
 ## 🎯 Key Learning Objectives
 
@@ -134,9 +123,9 @@ ORDER BY month DESC;
 
 ## 🛠️ Technologies Used
 
-- **Database**: MySQL / PostgreSQL 💾
-- **Tools**: SQL Scripts, Database Design Tools 🔧
-- **Documentation**: Markdown, ERD Diagrams 📝
+• **Database**: MySQL / PostgreSQL 💾
+• **Tools**: SQL Scripts, Database Design Tools 🔧
+• **Documentation**: Markdown, ERD Diagrams 📝
 
 ## 📝 Sample Queries Included
 
@@ -178,6 +167,4 @@ For questions or suggestions, please reach out through GitHub issues or contact 
 
 This project demonstrates practical application of SQL in a real-world hotel management scenario, showcasing database design, implementation, and query optimization techniques. 🎓
 
----
-
-⭐ **Don't forget to star this repository if you found it helpful!** ⭐
+⭐ Don't forget to star this repository if you found it helpful! ⭐
